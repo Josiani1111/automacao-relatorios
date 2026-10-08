@@ -1,41 +1,55 @@
-# Automação de Relatórios de Vendas
+# 📊 Automação de Relatórios de Vendas
 
-Projeto desenvolvido em Python para automatizar a leitura, análise e geração de relatórios de vendas a partir de uma planilha Excel.
+Projeto desenvolvido em **Python** para automatizar a leitura, análise e geração de relatórios de vendas a partir de uma planilha Excel.
 
-## Sobre o projeto
+A aplicação processa os dados, calcula indicadores, identifica vendas relevantes e gera automaticamente um novo relatório Excel com informações organizadas e visualizações.
 
-A aplicação lê os dados de vendas, calcula automaticamente os valores das vendas, identifica a maior venda, gera indicadores e classifica as vendas de acordo com um valor mínimo definido.
+---
 
-Ao final, o sistema gera um novo arquivo Excel com:
+## 🚀 Tecnologias utilizadas
 
-* Resumo dos principais indicadores
-* Relatório detalhado das vendas
-* Identificação de vendas que precisam de atenção
-* Gráfico de vendas por vendedor
-* Formatação automática das planilhas
+* 🐍 **Python**
+* 🐼 **Pandas**
+* 📊 **OpenPyXL**
+* 📗 **Excel**
+* 🔧 **Git/GitHub**
 
-## Tecnologias utilizadas
+---
 
-* Python
-* Pandas
-* OpenPyXL
-* Excel
-* Git/GitHub
+## ⚙️ Funcionalidades
 
-## Funcionalidades
+O sistema realiza automaticamente:
 
-* Leitura de dados de uma planilha Excel
-* Cálculo automático do total de cada venda
-* Cálculo do faturamento total
-* Cálculo da média por venda
-* Cálculo da quantidade total de produtos
-* Identificação da maior venda
-* Classificação das vendas como `Normal` ou `Atenção`
-* Geração automática de relatório Excel
-* Criação de gráfico de vendas
-* Formatação e organização automática das planilhas
+* 📥 Leitura de dados de uma planilha Excel
+* 🧮 Cálculo do valor total de cada venda
+* 💰 Cálculo do faturamento total
+* 📊 Cálculo da média por venda
+* 📦 Cálculo da quantidade total de produtos
+* 🏆 Identificação da maior venda
+* ⚠️ Classificação das vendas como `Normal` ou `Atenção`
+* 📄 Geração automática de um novo relatório Excel
+* 📈 Criação de gráfico de vendas por vendedor
+* 🎨 Formatação e organização automática das planilhas
 
-## Estrutura do projeto
+---
+
+## 📋 Exemplo dos resultados
+
+Com os dados utilizados no projeto, a aplicação gera os seguintes indicadores:
+
+| Indicador                       |        Resultado |
+| ------------------------------- | ---------------: |
+| 💰 Faturamento total            | **R$ 31.200,00** |
+| 📊 Média por venda              |  **R$ 6.240,00** |
+| 📦 Quantidade total de produtos |           **35** |
+| 🏆 Maior venda                  | **R$ 13.500,00** |
+| ⚠️ Vendas em atenção            |            **2** |
+
+A maior venda identificada foi realizada pela vendedora **Ana**, com a venda de **3 notebooks**, totalizando **R$ 13.500,00**.
+
+---
+
+## 📁 Estrutura do projeto
 
 ```text
 automacao-relatorios/
@@ -53,66 +67,86 @@ automacao-relatorios/
 └── README.md
 ```
 
-## Como executar
+---
+
+## ▶️ Como executar
 
 ### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/Josiani1111/automacao-relatorios.git
+```
 
-### 2. Entre na pasta do projeto
+### 2. Acesse a pasta do projeto
 
 ```bash
 cd automacao-relatorios
 ```
 
-### 3. Crie e ative o ambiente virtual
+### 3. Crie o ambiente virtual
 
-No Windows:
+```bash
+python -m venv .venv
+```
+
+### 4. Ative o ambiente virtual no Windows
 
 ```powershell
-python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-### 4. Instale as dependências
+### 5. Instale as dependências
 
 ```bash
 pip install pandas openpyxl
 ```
 
-### 5. Execute o projeto
+### 6. Execute a aplicação
 
 ```bash
 python src\main.py
 ```
 
-O relatório será gerado automaticamente na pasta:
+Após a execução, o relatório será gerado automaticamente na pasta:
 
 ```text
 relatorios/
 ```
 
-## Exemplo dos resultados
+---
 
-Com os dados utilizados no projeto, a aplicação identifica:
+## 💡 O que este projeto demonstra
 
-* Faturamento total: **R$ 31.200,00**
-* Média por venda: **R$ 6.240,00**
-* Quantidade total de produtos: **35**
-* Maior venda: **R$ 13.500,00**
-* Vendas em atenção: **2**
+Este projeto demonstra conhecimentos práticos em:
 
-## Objetivo
+* Manipulação e análise de dados com **Pandas**
+* Leitura e geração de arquivos Excel
+* Automação de tarefas
+* Cálculo de indicadores
+* Tratamento e organização de dados
+* Geração de relatórios
+* Criação de gráficos com **OpenPyXL**
+* Estruturação de projetos Python
+* Git e GitHub
 
-Este projeto foi desenvolvido como prática de Python e automação de processos, aplicando manipulação de dados, geração de relatórios e organização de informações em Excel.
+---
 
-Também faz parte do meu portfólio de projetos voltados ao desenvolvimento de software e automação.
+## 🎯 Objetivo do projeto
 
-## Autora
+O objetivo deste projeto foi desenvolver uma solução prática de **automação de relatórios**, reduzindo tarefas manuais de análise e organização de dados.
 
-**Josiani Oliveira**
+O projeto faz parte do meu portfólio profissional e demonstra minha evolução em **Python, análise de dados e automação de processos**.
 
-Estudante do último ano de Análise e Desenvolvimento de Sistemas.
+---
 
-Conhecimentos em Python, SQL, APIs REST, Git/GitHub e desenvolvimento de sistemas.
+## 👩‍💻 Sobre mim
+
+Sou **estudante do último ano de Análise e Desenvolvimento de Sistemas** e estou construindo minha carreira na área de Tecnologia.
+
+Busco uma oportunidade como **Desenvolvedora Júnior**, especialmente em posições relacionadas a **Python, backend, APIs REST, automação e desenvolvimento de sistemas**.
+
+Tenho experiência profissional e experiência prática em TI, com perfil analítico, organização e foco na resolução de problemas.
+
+---
+
+⭐ Obrigada por visitar o projeto!
